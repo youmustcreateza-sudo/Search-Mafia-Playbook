@@ -33,6 +33,14 @@ const ShadowFilter = () => (
 export const JusticeStats: React.FC = () => {
   return (
     <div className="flex flex-col gap-8 mt-10">
+      
+      {/* Context Description */}
+      <div className="bg-neutral-900/50 border border-neutral-700/50 p-4 rounded-lg max-w-3xl mx-auto text-center mb-2">
+        <p className="text-gray-300 text-sm leading-relaxed">
+          While the law provides a framework for justice, public perception and court satisfaction rates reveal a system under strain. These figures highlight the necessity of a well-prepared, persistent approach rather than passive reliance on the process.
+        </p>
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Chart 1: GBV Sentences */}
         <div className="bg-[#404040] rounded-xl p-6 border border-neutral-600 border-t-[#777] border-b-black/80 shadow-[0_0_20px_rgba(0,0,0,0.3)] transition-all duration-300 transform hover:-translate-y-1">

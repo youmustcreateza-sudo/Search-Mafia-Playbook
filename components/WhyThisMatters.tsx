@@ -19,16 +19,6 @@ export const WhyThisMatters: React.FC = () => {
                 </p>
             </div>
 
-            <div className="mt-8 bg-neutral-900 border border-neutral-700 p-6 rounded-xl flex flex-col md:flex-row items-center gap-6 shadow-lg mb-10">
-              <div className="flex-shrink-0 bg-white text-black font-black text-4xl h-16 w-16 rounded-full flex items-center justify-center">ⓑ</div>
-              <div className="text-left">
-                <h3 className="text-white font-bold text-lg">The Bodyright Movement</h3>
-                <p className="text-gray-400 text-sm mt-1 leading-relaxed">
-                  Copyright marks protect intellectual property. But we don't have the same protection for our bodies online. The <strong>ⓑ symbol</strong> is the new copyright for the human body. Join the global <a href="https://www.unfpa.org/bodyright" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline hover:text-cyan-300">UNFPA Bodyright campaign</a> to demand protection from digital violence.
-                </p>
-              </div>
-            </div>
-
             {/* Legal Stakes - Integrated with Raised Button Aesthetic */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-stretch mb-8">
                 <div className="flex-1 bg-[#404040] border border-neutral-600 border-t-[#777] border-b-black/80 rounded-xl p-6 shadow-lg hover:-translate-y-0.5 transition-transform">
@@ -48,4 +38,3 @@ export const WhyThisMatters: React.FC = () => {
     </section>
   );
 };
-    

@@ -8,10 +8,8 @@ export const Footer: React.FC = () => {
     <footer className="mt-24 border-t border-neutral-800 bg-neutral-900/50 pt-16 pb-20">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <div className="mb-8">
-            <h5 className="text-white font-bold text-lg mb-2">Digital Safety Support SA</h5>
-            <a href="https://www.unfpa.org/bodyright" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-3 py-1 bg-neutral-800 rounded-full border border-neutral-600 text-xs text-cyan-400 hover:text-white hover:border-cyan-400 transition-colors">
-              <span className="font-bold">ⓑ</span> Supporter of the Bodyright Movement (Learn More)
-            </a>
+            <h5 className="text-white font-bold text-2xl mb-1 tracking-tight">WeMustCreate</h5>
+            <p className="text-cyan-400 text-sm font-medium tracking-widest uppercase">Optimized Local</p>
         </div>
         
         <p className="text-gray-500 text-sm mb-10">
@@ -35,4 +33,3 @@ export const Footer: React.FC = () => {
     </footer>
   );
 };
-        

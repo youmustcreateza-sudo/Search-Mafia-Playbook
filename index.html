@@ -361,6 +361,13 @@
       const JusticeStats = () => {
         return (
           <div className="flex flex-col gap-8 mt-10">
+            {/* Context Description - ADDED AS REQUESTED */}
+            <div className="bg-neutral-900/50 border border-neutral-700/50 p-4 rounded-lg max-w-3xl mx-auto text-center mb-2">
+                <p className="text-gray-300 text-sm leading-relaxed">
+                While the law provides a framework for justice, public perception and court satisfaction rates reveal a system under strain. These figures highlight the necessity of a well-prepared, persistent approach rather than passive reliance on the process.
+                </p>
+            </div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Chart 1 */}
               <div className="bg-[#404040] rounded-xl p-6 border border-neutral-600 border-t-[#777] border-b-black/80 shadow-[0_0_20px_rgba(0,0,0,0.3)] transition-all duration-300 transform hover:-translate-y-1">
@@ -480,15 +487,7 @@
                       </p>
                   </div>
 
-                  <div className="mt-8 bg-neutral-900 border border-neutral-700 p-6 rounded-xl flex flex-col md:flex-row items-center gap-6 shadow-lg mb-10">
-                    <div className="flex-shrink-0 bg-white text-black font-black text-4xl h-16 w-16 rounded-full flex items-center justify-center">ⓑ</div>
-                    <div className="text-left">
-                      <h3 className="text-white font-bold text-lg">The Bodyright Movement</h3>
-                      <p className="text-gray-400 text-sm mt-1 leading-relaxed">
-                        Copyright marks protect intellectual property. But we don't have the same protection for our bodies online. The <strong>ⓑ symbol</strong> is the new copyright for the human body. Join the global <a href="https://www.unfpa.org/bodyright" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline hover:text-cyan-300">UNFPA Bodyright campaign</a> to demand protection from digital violence.
-                      </p>
-                    </div>
-                  </div>
+                  {/* Bodyright Card REMOVED as requested */}
 
                   {/* Legal Stakes */}
                   <div className="flex flex-col sm:flex-row gap-6 justify-center items-stretch mb-8">
@@ -1193,10 +1192,8 @@
           <footer className="mt-24 border-t border-neutral-800 bg-neutral-900/50 pt-16 pb-20">
             <div className="max-w-4xl mx-auto px-6 text-center">
               <div className="mb-8">
-                  <h5 className="text-white font-bold text-lg mb-2">Digital Safety Support SA</h5>
-                  <a href="https://www.unfpa.org/bodyright" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-3 py-1 bg-neutral-800 rounded-full border border-neutral-600 text-xs text-cyan-400 hover:text-white hover:border-cyan-400 transition-colors">
-                    <span className="font-bold">ⓑ</span> Supporter of the Bodyright Movement (Learn More)
-                  </a>
+                  <h5 className="text-white font-bold text-2xl mb-1 tracking-tight">WeMustCreate</h5>
+                  <p className="text-cyan-400 text-sm font-medium tracking-widest uppercase">Optimized Local</p>
               </div>
               <p className="text-gray-500 text-sm mb-10">
                 &copy; {currentYear} Intimate Image Abuse Protection Guide.
